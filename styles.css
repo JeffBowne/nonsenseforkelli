@@ -5,7 +5,14 @@ body {
 	color: yellow;
 	text-align: center;
 }
-img {
+.container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.kel {
 	display: block;
 	width: 40%;
 	margin: 0 auto;
@@ -13,7 +20,21 @@ img {
 	border-radius: 40px;
 }
 
-img:hover {
 
+.d1 {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	width: 10%;
+	border: solid white 5px;
+	border-radius: 60px;
 }
 
+.d2 {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	width: 10%;
+	border: solid white 5px;
+	border-radius: 60px;
+}
