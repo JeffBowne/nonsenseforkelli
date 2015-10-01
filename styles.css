@@ -23,10 +23,19 @@ body {
 
 .kel {
 	display: block;
-	width: 50%;
+	width: 45%;
 	margin: 0 auto;
 	border: solid white 5px;
 	border-radius: 30px;
+	transition-duration: 300ms;
+}
+.kel:hover {
+	border: solid yellow 5px;
+	box-shadow: 0 0 15px yellow, 0 0 20px yellow, 0 0 25px yellow, 0 0 25px yellow, 0 0 15px yellow, 0 0 15px yellow;
+}
+.kel:focus {
+	border: solid yellow 5px;
+	box-shadow: 0 0 15px yellow, 0 0 20px yellow, 0 0 25px yellow, 0 0 25px yellow, 0 0 15px yellow, 0 0 15px yellow;
 }
 
 
@@ -89,4 +98,6 @@ body {
 	right: 60px;
 	width: 50px;	
 }
+
+
 
