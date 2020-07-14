@@ -162,7 +162,7 @@ border: solid rgba(112,112,112,0) 5px;
 
 
 .sig {
-	text-align: right;
+	margin: 8px 0;
 	font-family: "Helvetica", sans-serif;
 	font-size: 12px;
 	color: black;
